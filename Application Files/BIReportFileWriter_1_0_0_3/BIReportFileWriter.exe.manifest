@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="BIReportFileWriter.exe" version="1.0.0.3" publicKeyToken="e9db306a0a5a3ce1" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="BIReportFileWriter" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="BIReportFileWriter.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="BIReportFileWriter.exe" size="19368">
+      <assemblyIdentity name="BIReportFileWriter" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>v6Tyh7r0Di53+NgiLfBXRhhDNGvga4vI0ocRz69yPOA=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="BIReportFileWriting.dll" size="7168">
+      <assemblyIdentity name="BIReportFileWriting" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>x2vPi/P9sZIbm9q0ovV+rh6ldskdDNPIcqTpHJasQ4k=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DataModelXML.dll" size="29184">
+      <assemblyIdentity name="DataModelXML" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>fnkFq2af33quPZo5FTH8uUqck+R48ZqiRwMp1PAZqHs=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="BIReportFileWriter.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>SYx/jocvnO8M8E99KQzzgEyCoAcgLJtIQSjJTQMED9A=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=LANCE\lance" issuerKeyHash="1d0dd498c03f1f2920c5f7c68d606362603e3da1" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>MERrJyNUYPxv7mfgNtXt/6pwNOcj8pKJ1PIfGbOLiUU=</DigestValue></Reference></SignedInfo><SignatureValue>I6XCfhYqqqHoaSzC777BIMgrWo41zXd75riN/CdD3u49Gg0gOwi+HfbXTLJrqI96wIc8NSkMeQe3EKOuND/xEUkR1M0zCrnpVIQDqsgCzOKv4/GVf+Jjb+UldpW3enkrPzx8PGvTd3V/V64uxpEyEgN/A0KUyGjHvdQO/dMLcKQ=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>ngFdyyIY8K1db52HStvIf3yOLjohlWMkz6G5LUdRQy/FXblKckSWlkA1xEAbdVl0NBu+SOcYAw5x3idD/iiVu0UVGUOPaHKFTx38vteGRK2C3lDGGvtHdmFIocIVL7nVOMVbVjGkMXw8CWwh5uSWvVjZc+pDlbzcv/6NjCBjc/0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="45898bb3191ff2d48992f223e73470aaffedd536e067ee6ffc605423276b4430" Description="" Url=""><as:assemblyIdentity name="BIReportFileWriter.exe" version="1.0.0.3" publicKeyToken="e9db306a0a5a3ce1" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=LANCE\lance</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>s5y7SDKni51qb/9tKG/yEjjHO+N4RIdXrQWqSiKbz0w=</DigestValue></Reference></SignedInfo><SignatureValue>kVnlsETGPRtatnBsXXX8LXT2bwcCDadadXvZ+AXLAGoRm3ySMM46zO2VNTh+10lqvV6pGj34H1tl4/NODyv5VkI02K5dqOTl4Owt+PPG13I45ykM1t5mJrnDwlNb4gDtPNdIHVcBwLPMHiD3tGds2Dvdd2Dhg3N06xPCAf2ZWFk=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>ngFdyyIY8K1db52HStvIf3yOLjohlWMkz6G5LUdRQy/FXblKckSWlkA1xEAbdVl0NBu+SOcYAw5x3idD/iiVu0UVGUOPaHKFTx38vteGRK2C3lDGGvtHdmFIocIVL7nVOMVbVjGkMXw8CWwh5uSWvVjZc+pDlbzcv/6NjCBjc/0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBxTCCAS6gAwIBAgIQHxYamQlFY5pJ9EQYguIZnDANBgkqhkiG9w0BAQsFADAhMR8wHQYDVQQDHhYATABBAE4AQwBFAFwAbABhAG4AYwBlMB4XDTIwMTAyODAxNTk0NVoXDTIxMTAyODA3NTk0NVowITEfMB0GA1UEAx4WAEwAQQBOAEMARQBcAGwAYQBuAGMAZTCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAngFdyyIY8K1db52HStvIf3yOLjohlWMkz6G5LUdRQy/FXblKckSWlkA1xEAbdVl0NBu+SOcYAw5x3idD/iiVu0UVGUOPaHKFTx38vteGRK2C3lDGGvtHdmFIocIVL7nVOMVbVjGkMXw8CWwh5uSWvVjZc+pDlbzcv/6NjCBjc/0CAwEAATANBgkqhkiG9w0BAQsFAAOBgQCDsLV8OmR6w4Q5Op1zgSMRtGmjY7jHO7qx324bK5Ir2ODp0/FbBtbuj6zKezTAtwNEO92hVCSs1OTfv6zDNMA1ytp/gclKeJ9MrC77Q8yu7SiKp4f946pP17/Ty6EzNc7KIOKJcI3ylNsnajQnDKhbMBc279B5AC+KWWlqHDnI3g==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
