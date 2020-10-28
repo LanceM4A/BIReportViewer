@@ -1,0 +1,451 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="WindowsApplication.exe" version="1.0.0.1" publicKeyToken="66f5802a8f8703aa" language="neutral" processorArchitecture="x86" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="WindowsApplication" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="WindowsApplication.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet version="1" class="System.Security.NamedPermissionSet" Name="LocalIntranet" Description="Default rights given to applications on the local intranet" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC Manifest Options
+             If you want to change the Windows User Account Control level replace the 
+             requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            Specifying requestedExecutionLevel element will disable file and registry virtualization. 
+            Remove this element if your application requires this virtualization for backwards
+            compatibility.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="WindowsApplication.exe" size="7552">
+      <assemblyIdentity name="WindowsApplication" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>1CZuoQ7fT4Pv4iQ4GmUnJQjRlwM=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name=".git\ms-persist.xml" size="150" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>vQnCR3F2BQqoB1QQnM74dbXGhnw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="packages\System.IO.Compression.4.3.0\dotnet_library_license.txt" size="9451">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>pMuEeWOfc4C6amMiZOiH9G+npWE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="packages\System.IO.Compression.4.3.0\lib\net46\System.IO.Compression.dll" size="111984">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>YpzpXBKyFnjYdzWexFUtQxwc+6s=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="packages\System.IO.Compression.4.3.0\ref\net46\System.IO.Compression.dll" size="111984">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>YpzpXBKyFnjYdzWexFUtQxwc+6s=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="packages\System.IO.Compression.4.3.0\ref\netcore50\de\System.IO.Compression.xml" size="42412" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>oNsNTHFB3gJhjgGh7QHFA/XXrck=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="packages\System.IO.Compression.4.3.0\ref\netcore50\es\System.IO.Compression.xml" size="41802" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>uaitJu8KTRJSDZKufQyKHhmTkIE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="packages\System.IO.Compression.4.3.0\ref\netcore50\fr\System.IO.Compression.xml" size="42003" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>wHkmk47zLKXpZvMob6WLz3ERG44=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="packages\System.IO.Compression.4.3.0\ref\netcore50\it\System.IO.Compression.xml" size="41105" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>e/MNUeeuofZdilv6g/JWG0jEj14=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="packages\System.IO.Compression.4.3.0\ref\netcore50\ja\System.IO.Compression.xml" size="45498" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>bTatgKnKTKg2glbkDHSGFjNqDpo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="packages\System.IO.Compression.4.3.0\ref\netcore50\ko\System.IO.Compression.xml" size="43178" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>TvIUdA8+hkt7bn5Z4839msK75uo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="packages\System.IO.Compression.4.3.0\ref\netcore50\ru\System.IO.Compression.xml" size="50908" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>yiyVsrpdlCx6UfqENWdM0H3bfuA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="packages\System.IO.Compression.4.3.0\ref\netcore50\System.IO.Compression.dll" size="24280">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>gMGxDCSnyFDeL/yPcRvORmGqBNU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="packages\System.IO.Compression.4.3.0\ref\netcore50\System.IO.Compression.xml" size="40230" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>nrkGviYm8/JvcEU1VZAmWFqTN+Y=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="packages\System.IO.Compression.4.3.0\ref\netcore50\zh-hans\System.IO.Compression.xml" size="37597" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>MMNg+N8/RegTuJdL54GVdXs8wL8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="packages\System.IO.Compression.4.3.0\ref\netcore50\zh-hant\System.IO.Compression.xml" size="38594" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>5ZU/n/hX61WUimBcdi+dxZYNoj0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="packages\System.IO.Compression.4.3.0\ref\netstandard1.1\de\System.IO.Compression.xml" size="42412" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>oNsNTHFB3gJhjgGh7QHFA/XXrck=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="packages\System.IO.Compression.4.3.0\ref\netstandard1.1\es\System.IO.Compression.xml" size="41802" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>uaitJu8KTRJSDZKufQyKHhmTkIE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="packages\System.IO.Compression.4.3.0\ref\netstandard1.1\fr\System.IO.Compression.xml" size="42003" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>wHkmk47zLKXpZvMob6WLz3ERG44=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="packages\System.IO.Compression.4.3.0\ref\netstandard1.1\it\System.IO.Compression.xml" size="41105" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>e/MNUeeuofZdilv6g/JWG0jEj14=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="packages\System.IO.Compression.4.3.0\ref\netstandard1.1\ja\System.IO.Compression.xml" size="45498" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>bTatgKnKTKg2glbkDHSGFjNqDpo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="packages\System.IO.Compression.4.3.0\ref\netstandard1.1\ko\System.IO.Compression.xml" size="43178" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>TvIUdA8+hkt7bn5Z4839msK75uo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="packages\System.IO.Compression.4.3.0\ref\netstandard1.1\ru\System.IO.Compression.xml" size="50908" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>yiyVsrpdlCx6UfqENWdM0H3bfuA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="packages\System.IO.Compression.4.3.0\ref\netstandard1.1\System.IO.Compression.dll" size="23520">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>ymSIqMBOllO5OYPJWDHDP4jSy+4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="packages\System.IO.Compression.4.3.0\ref\netstandard1.1\System.IO.Compression.xml" size="40230" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>nrkGviYm8/JvcEU1VZAmWFqTN+Y=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="packages\System.IO.Compression.4.3.0\ref\netstandard1.1\zh-hans\System.IO.Compression.xml" size="37597" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>MMNg+N8/RegTuJdL54GVdXs8wL8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="packages\System.IO.Compression.4.3.0\ref\netstandard1.1\zh-hant\System.IO.Compression.xml" size="38594" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>5ZU/n/hX61WUimBcdi+dxZYNoj0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="packages\System.IO.Compression.4.3.0\ref\netstandard1.3\de\System.IO.Compression.xml" size="42412" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>oNsNTHFB3gJhjgGh7QHFA/XXrck=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="packages\System.IO.Compression.4.3.0\ref\netstandard1.3\es\System.IO.Compression.xml" size="41802" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>uaitJu8KTRJSDZKufQyKHhmTkIE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="packages\System.IO.Compression.4.3.0\ref\netstandard1.3\fr\System.IO.Compression.xml" size="42003" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>wHkmk47zLKXpZvMob6WLz3ERG44=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="packages\System.IO.Compression.4.3.0\ref\netstandard1.3\it\System.IO.Compression.xml" size="41105" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>e/MNUeeuofZdilv6g/JWG0jEj14=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="packages\System.IO.Compression.4.3.0\ref\netstandard1.3\ja\System.IO.Compression.xml" size="45498" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>bTatgKnKTKg2glbkDHSGFjNqDpo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="packages\System.IO.Compression.4.3.0\ref\netstandard1.3\ko\System.IO.Compression.xml" size="43178" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>TvIUdA8+hkt7bn5Z4839msK75uo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="packages\System.IO.Compression.4.3.0\ref\netstandard1.3\ru\System.IO.Compression.xml" size="50908" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>yiyVsrpdlCx6UfqENWdM0H3bfuA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="packages\System.IO.Compression.4.3.0\ref\netstandard1.3\System.IO.Compression.dll" size="24280">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>gMGxDCSnyFDeL/yPcRvORmGqBNU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="packages\System.IO.Compression.4.3.0\ref\netstandard1.3\System.IO.Compression.xml" size="40230" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>nrkGviYm8/JvcEU1VZAmWFqTN+Y=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="packages\System.IO.Compression.4.3.0\ref\netstandard1.3\zh-hans\System.IO.Compression.xml" size="37597" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>MMNg+N8/RegTuJdL54GVdXs8wL8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="packages\System.IO.Compression.4.3.0\ref\netstandard1.3\zh-hant\System.IO.Compression.xml" size="38594" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>5ZU/n/hX61WUimBcdi+dxZYNoj0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="packages\System.IO.Compression.4.3.0\runtimes\unix\lib\netstandard1.3\System.IO.Compression.dll" size="117624">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>j9SUJryVgg4oHMpBBWg+WpPI2Ss=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="packages\System.IO.Compression.4.3.0\runtimes\win\lib\net46\System.IO.Compression.dll" size="111984">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>YpzpXBKyFnjYdzWexFUtQxwc+6s=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="packages\System.IO.Compression.4.3.0\runtimes\win\lib\netstandard1.3\System.IO.Compression.dll" size="125296">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>LN/JPqln0HJfGp83HwC5UP4dvBM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="packages\System.IO.Compression.4.3.0\ThirdPartyNotices.txt" size="1617">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>WGM6CxzCgvpuxMoy1LkycxnKMf4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="WindowsApplication.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>nX91c0pTNhUEL1EJNEAsA1rEkvc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- A list of the Windows versions that this application has been tested on
+           and is designed to work with. Uncomment the appropriate elements
+           and Windows will automatically select the most compatible environment. -->
+      <!-- Windows Vista -->
+      <!--<supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}" />-->
+      <!-- Windows 7 -->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}" />-->
+      <!-- Windows 8 -->
+      <!--<supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}" />-->
+      <!-- Windows 8.1 -->
+      <!--<supportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}" />-->
+      <!-- Windows 10 -->
+      <!--<supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}" />-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=LANCE\lance" issuerKeyHash="a22257bcdc5eee3f85b84ce39762dee542971154" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>Au/YxDu5p+t0mYVKzQDAdUyDBYE=</DigestValue></Reference></SignedInfo><SignatureValue>zgzH0vrmGMPQbhfSzj1zekVD1bjrhEP5heiFfOfM1zcxVP8lf894QANP8K+8X28B01THX33yv7SB4PbPK6tlGXRABxu76DZ8isU9cK9kvSTy+QLp9fPCfKnGL+Vn0uUZc0C0zdda8KvKdTVGi1vd+7T+/qgaaoeTl0eB1ZXNR2U=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>zqtyjnEwuL1LkbUMd9rHR3jySJjIUroVzIZvnjIZSPcgK9+g57raEV4kMAAuRhnRl05Tg9ibx9HY9SsBAPY/1hiQSJB0MnFVF6ymp8Ak5y4Ii6dLsz4r2ncwX6TPYvZghpOOV3g8wMqWhj1YDW8t47f1/tsL+6fOjZvfeNEUJyU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="8105834c75c000cd4a859974eba7b93bc4d8ef02" Description="" Url=""><as:assemblyIdentity name="WindowsApplication.exe" version="1.0.0.1" publicKeyToken="66f5802a8f8703aa" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=LANCE\lance</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>xm2wUkra7qyYmQY2MnXuajlRcds=</DigestValue></Reference></SignedInfo><SignatureValue>iSr3EPr+tiC3uHmWROzkmRTDJRn3IwJJ/NBiiiNnarNFmtrkpD/bjHItuqUCh0I9wMpRctNk57AxR2pfFDeE2jgMYJS2qKr0GeE4pRGHp0zQDlbBFKY2lf9uq1x0QJMu+7E+5vLLG5NorycM9VGFyMZw7Sn8Ds4iy3a1hu9xfuo=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>zqtyjnEwuL1LkbUMd9rHR3jySJjIUroVzIZvnjIZSPcgK9+g57raEV4kMAAuRhnRl05Tg9ibx9HY9SsBAPY/1hiQSJB0MnFVF6ymp8Ak5y4Ii6dLsz4r2ncwX6TPYvZghpOOV3g8wMqWhj1YDW8t47f1/tsL+6fOjZvfeNEUJyU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBxTCCAS6gAwIBAgIQJOCUqAw4fpBGU2WwZoH9HDANBgkqhkiG9w0BAQUFADAhMR8wHQYDVQQDHhYATABBAE4AQwBFAFwAbABhAG4AYwBlMB4XDTIwMTAyNjIyMTgyMFoXDTIxMTAyNzA0MTgyMFowITEfMB0GA1UEAx4WAEwAQQBOAEMARQBcAGwAYQBuAGMAZTCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAzqtyjnEwuL1LkbUMd9rHR3jySJjIUroVzIZvnjIZSPcgK9+g57raEV4kMAAuRhnRl05Tg9ibx9HY9SsBAPY/1hiQSJB0MnFVF6ymp8Ak5y4Ii6dLsz4r2ncwX6TPYvZghpOOV3g8wMqWhj1YDW8t47f1/tsL+6fOjZvfeNEUJyUCAwEAATANBgkqhkiG9w0BAQUFAAOBgQBkeFZhvW0oFDYIDEd83GtI7HciJLjPgOqeJs6xD9v9xQSWphD3Qairq6TttY4gHLs3iKTpPBQSfTfLFeBC4JOTtbNnIno38Kekfbsf6N0CfDHiPayWcG71pF1ibOsV+RF24OL+P1FLWABSJr9nd31tNA2k/KAoAfnXyJxdRamgzw==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
